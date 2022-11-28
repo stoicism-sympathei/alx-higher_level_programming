@@ -1,2 +1,2 @@
 #!/bin/bash
-paython3 -c "$PYCODE"
+paython3 -c $PYCODE
