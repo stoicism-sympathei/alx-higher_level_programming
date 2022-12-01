@@ -1,5 +1,10 @@
-# Python - import & modules
-
+<p align="center">
+  
+  <img src="Python-Imports.png" width="600\"/>
+  
+  <br>
+  
+  <h1><p align="center"> python-import & modules </h></p></font>
 
 ## Tasks :page_with_curl:
 
