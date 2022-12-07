@@ -5,10 +5,10 @@ def roman_to_int(roman_string):
     p = 0
 
     if type(roman_string) is str and roman_string:
-        for c in range(len(roman_string) -1, -1, -1):
+        for c in range(len(roman_string) - 1, -1, -1):
             if val[roman_string[c]] >= p:
-                res += vasl[roman_string[c]]
+                res += val[roman_string[c]]
             else:
-                res -= vsl[roman_string[c]]
-                p = val[roman_string[c]]
-     return res
+                res -= val[roman_string[c]]
+            p = val[roman_string[c]]
+    return res
