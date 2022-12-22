@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <img src="TDD.jpg" width="600\"/>
+  <img src="TDD.jpg" width="400\"/>
 
   <br>
 
