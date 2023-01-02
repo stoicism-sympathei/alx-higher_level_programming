@@ -2,9 +2,6 @@
 
 ![alt text](http://www.crestbook.com/files/Judit-photo1_602x433.jpg)
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Tasks :page_with_curl:
 
