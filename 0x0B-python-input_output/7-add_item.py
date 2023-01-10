@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """Add item script."""
 import sys
 
