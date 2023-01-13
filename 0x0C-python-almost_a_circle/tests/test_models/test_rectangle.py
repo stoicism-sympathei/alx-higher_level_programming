@@ -79,17 +79,17 @@ class Test_Rectangle_values(TestCase):
 
     types = [
         None,
-        "Betty Holberton",
+        "Best School",
         3.14,
         2j,
-        ["Betty", "Holberton"],
-        ("Betty", "Holberton"),
+        ["Best", "School"],
+        ("Best", "School"),
         range(42),
-        {"first": "Betty", "last": "Holberton"},
-        {"Betty", "Holberton"},
-        frozenset({"Betty", "Holberton"}),
+        {"first": "Best", "last": "School"},
+        {"Best", "School"},
+        frozenset({"Best", "School"}),
         True,
-        b"Betty Holberton",
+        b"Best School",
         bytearray(42),
         memoryview(bytes(42))
     ]
@@ -295,7 +295,7 @@ class Test_Rectangle_update_with_kwargs(TestCase):
 
     def test_update_kwargs_mixed_too_many_args(self):
         r = Rectangle(2, 4, 1, 2, 42)
-        r.update(y=10, width=10, betty="holberton", id=10, x=10, height=10)
+        r.update(y=10, width=10, best="school", id=10, x=10, height=10)
         self.assertEqual(str(r), "[Rectangle] (10) 10/10 - 10/10")
 
     def test_update_kwargs_args_before(self):
@@ -310,7 +310,7 @@ class Test_Rectangle_update_with_kwargs(TestCase):
 
     def test_update_kwargs_only_wrong_keys(self):
         r = Rectangle(2, 4, 1, 2, 42)
-        r.update(betty="holberton", holberton="betty")
+        r.update(best="school", school="best")
         self.assertEqual(str(r), "[Rectangle] (42) 1/2 - 2/4")
 
 
