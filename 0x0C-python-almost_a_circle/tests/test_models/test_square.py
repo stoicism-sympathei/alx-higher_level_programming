@@ -66,17 +66,17 @@ class Test_Square_values(TestCase):
 
     types = [
         None,
-        "Betty Holberton",
+        "Best School",
         3.14,
         2j,
-        ["Betty", "Holberton"],
-        ("Betty", "Holberton"),
+        ["Best", "School"],
+        ("Best", "School"),
         range(42),
-        {"first": "Betty", "last": "Holberton"},
-        {"Betty", "Holberton"},
-        frozenset({"Betty", "Holberton"}),
+        {"first": "Best", "last": "School"},
+        {"Best", "School"},
+        frozenset({"Best", "School"}),
         True,
-        b"Betty Holberton",
+        b"Best School",
         bytearray(42),
         memoryview(bytes(42))
     ]
@@ -274,7 +274,7 @@ class Test_Square_update_with_kwargs(TestCase):
 
     def test_update_kwargs_mixed_too_many_args(self):
         s = Square(2, 1, 2, 42)
-        s.update(y=40, size=10, betty="holberton", id=24, x=30)
+        s.update(y=40, size=10, best="school", id=24, x=30)
         self.assertEqual(str(s), "[Square] (24) 30/40 - 10")
 
     def test_update_kwargs_args_before(self):
@@ -289,7 +289,7 @@ class Test_Square_update_with_kwargs(TestCase):
 
     def test_update_kwargs_only_wrong_keys(self):
         s = Square(2, 1, 2, 42)
-        s.update(betty="holberton", holberton="betty")
+        s.update(best="school", school="best")
         self.assertEqual(str(s), "[Square] (42) 1/2 - 2")
 
 
