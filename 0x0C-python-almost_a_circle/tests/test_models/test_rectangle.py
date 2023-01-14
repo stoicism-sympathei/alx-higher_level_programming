@@ -290,7 +290,7 @@ class Test_Rectangle_update_with_kwargs(TestCase):
 
     def test_update_kwargs_too_many_args(self):
         r = Rectangle(2, 4, 1, 2, 42)
-        r.update(y=10, width=10, id=10, x=10, height=10, betty="holberton")
+        r.update(y=10, width=10, id=10, x=10, height=10, best="school")
         self.assertEqual(str(r), "[Rectangle] (10) 10/10 - 10/10")
 
     def test_update_kwargs_mixed_too_many_args(self):
