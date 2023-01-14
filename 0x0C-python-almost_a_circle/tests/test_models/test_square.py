@@ -269,7 +269,7 @@ class Test_Square_update_with_kwargs(TestCase):
 
     def test_update_kwargs_too_many_args(self):
         s = Square(2, 1, 2, 42)
-        s.update(y=40, size=10, id=24, x=30, betty="holberton")
+        s.update(y=40, size=10, id=24, x=30, best="school")
         self.assertEqual(str(s), "[Square] (24) 30/40 - 10")
 
     def test_update_kwargs_mixed_too_many_args(self):
