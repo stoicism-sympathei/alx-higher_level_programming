@@ -1,13 +1,12 @@
-# Python - Almost a circle
+## Python - Almost a circle
 
 <p align="center">
 
-  <img src="Almost.jpg" width="400\"/>
+   <img src="Almost.jpg" width="400\"/>  
 
-  <br>
-
-  <h1><p align="center">  Almost a circle  </h></p></font>
-
+   <br>
+  
+  <h1><p align="center"> Almost a Circle </h1></p></font>
 In this project, I encapsulated skills in Python object-oriented programming by coding three connected classes to represent rectangles and squares. I wrote my own test suite using the `unittest` module to test all functionality for each class.
 
 The three classes involved utilizing the following Python tools:
@@ -28,6 +27,12 @@ The three classes involved utilizing the following Python tools:
   * [test_base.py](./tests/test_models/test_base.py)
   * [test_rectangle.py](./tests/test_models/test_rectangle.py)
   * [test_square.py](./tests/test_models/test_square.py)
+
+## Models
+
+  * [base.py](./models/base.py)
+  * [rectangle.py](./models/rectangle.py)
+  * [square.py](./models/square.py)
 
 ## Classes :cl:
 
