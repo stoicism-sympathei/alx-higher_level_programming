@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
 """This is the Base module.
-
 Contains the Base class which will be the
 “base” of all other classes in this project.
 """
@@ -12,10 +10,8 @@ import turtle
 
 class Base():
     """This class will be the “base” of all other classes in this project.
-
     The goal is to manage id attribute in all our future classes
     and to avoid duplicating the same code and same errors.
-
     Attributes:
         __nb_objects (int): the number of created Base objects.
     """
@@ -24,7 +20,6 @@ class Base():
 
     def __init__(self, id=None):
         """Initializes the default attributes of the Base object.
-
         Args:
             id (int): the identifier of the Base object.
         """
@@ -37,7 +32,6 @@ class Base():
     @staticmethod
     def to_json_string(list_dictionaries):
         """Returns the JSON string representation of list_dictionaries.
-
         Args:
             list_dictionaries (list): a list of dictionaries.
         """
@@ -48,7 +42,6 @@ class Base():
     @classmethod
     def save_to_file(cls, list_objs):
         """Writes the JSON string representation of list_objs to a file.
-
         Args:
             list_objs (list): a list of objects.
         """
@@ -62,7 +55,6 @@ class Base():
     @staticmethod
     def from_json_string(json_string):
         """Returns the list of the JSON string representation json_string.
-
         Args:
             json_string (str): string representing a list of dictionaries.
         """
@@ -73,7 +65,6 @@ class Base():
     @classmethod
     def create(cls, **dictionary):
         """Returns an instance with all attributes already set.
-
         Args:
             dictionary (dict): the values of the wanted instance.
         """
@@ -97,7 +88,6 @@ class Base():
     @classmethod
     def save_to_file_csv(cls, list_objs):
         """Serializes the CSV string representation of list_objs to a file.
-
         Args:
             list_objs (list): a list of objects.
         """
@@ -137,7 +127,6 @@ class Base():
 
     def draw(list_rectangles, list_squares):
         """Opens a window and draws all the Rectangles and Squares.
-
         Args:
             list_rectangles (list): a list of rectangle instances.
             list_squares (list): a list of square instances.
