@@ -5,7 +5,6 @@ This is the add_integer module.
 This module supplies one function, add_integer().
 """
 
-
 def add_integer(a, b=98):
 
     """
