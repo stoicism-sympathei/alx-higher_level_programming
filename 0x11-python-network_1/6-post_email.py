@@ -3,8 +3,8 @@
 import requests
 import sys
 
+import requests
+from sys import argv
 
 if __name__ == "__main__":
-    email = {'email': sys.argv[2]}
-    r = requests.post(sys.argv[1], data=email)
-    print(r.text)
+    print(requests.post(argv[1], data={'email': argv[2]}).text)
